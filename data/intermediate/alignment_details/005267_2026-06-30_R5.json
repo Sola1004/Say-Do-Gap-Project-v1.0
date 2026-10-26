@@ -1,0 +1,205 @@
+{
+    "composite_key": "005267_2026-06-30_R5",
+    "left_do_fact": {
+        "fund_code": "005267",
+        "end_date": "2026-06-30",
+        "report_type_id": 5,
+        "actual_actions": [
+            {
+                "industry": "制造业",
+                "action_type": "加仓",
+                "weight_change_pct": 4.85,
+                "change_rank": 1
+            },
+            {
+                "industry": "采矿业",
+                "action_type": "减仓",
+                "weight_change_pct": -4.67,
+                "change_rank": 2
+            },
+            {
+                "industry": "工业",
+                "action_type": "加仓",
+                "weight_change_pct": 3.48,
+                "change_rank": 3
+            },
+            {
+                "industry": "金融业",
+                "action_type": "减仓",
+                "weight_change_pct": -2.41,
+                "change_rank": 4
+            },
+            {
+                "industry": "能源",
+                "action_type": "减仓",
+                "weight_change_pct": -1.34,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-06-30 报告期，调仓最大的是 制造业（变动 4.85%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "震荡",
+        "industry_views": [
+            {
+                "industry": "TMT/AI/电子",
+                "stance": "看空",
+                "reason": "估值水平过高，处于周期高点，市场预期已过于乐观，难以接受当前估值水平。"
+            },
+            {
+                "industry": "能源",
+                "stance": "看好",
+                "reason": "增加了配置比例，因能源资本开支持续不足及美伊战争反复对供应造成干扰。"
+            },
+            {
+                "industry": "有色",
+                "stance": "看空",
+                "reason": "适度减仓。"
+            },
+            {
+                "industry": "黄金",
+                "stance": "看空",
+                "reason": "适当减少了配置比例，短期受美元强势及加息预期压力，但长期基于对美国财政可持续性担忧保持看好。"
+            },
+            {
+                "industry": "化工",
+                "stance": "看好",
+                "reason": "关注持续低迷的内需相关行业复苏机会。"
+            },
+            {
+                "industry": "建材",
+                "stance": "看好",
+                "reason": "关注持续低迷的内需相关行业复苏机会。"
+            },
+            {
+                "industry": "房地产",
+                "stance": "看好",
+                "reason": "关注持续低迷的内需相关行业复苏机会。"
+            },
+            {
+                "industry": "消费",
+                "stance": "看好",
+                "reason": "适当有所增持，因需求韧性和极低的估值水平带来投资机会。"
+            },
+            {
+                "industry": "制造业（受益海外需求）",
+                "stance": "中性",
+                "reason": "保持配置比例，持续受益于中国出口韧性和国际竞争力增强。"
+            },
+            {
+                "industry": "交通运输业",
+                "stance": "中性",
+                "reason": "保持配置比例，持续受益于中国出口韧性和国际竞争力增强。"
+            }
+        ],
+        "key_factors": [
+            "AI产业趋势",
+            "估值分化",
+            "经济景气度",
+            "内需疲软",
+            "出口韧性",
+            "房地产下行",
+            "通胀预期",
+            "加息预期",
+            "地缘政治",
+            "流动性分化",
+            "超跌反弹"
+        ],
+        "confidence_score": 0.9
+    },
+    "comparison_result": {
+        "fund_code": "005267",
+        "end_date": "2026-06-30",
+        "consistency_score": 0.35,
+        "gap_type": "风格漂移/言行不一",
+        "industry_comparisons": [
+            {
+                "industry": "TMT/AI/电子",
+                "say_stance": "看空",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "报告中明确看空该板块，实际持仓未见显著加仓，体现了与言论的谨慎一致。"
+            },
+            {
+                "industry": "能源",
+                "say_stance": "看好",
+                "actual_action": "减仓",
+                "is_consistent": false,
+                "comment": "报告明确表示看好并声称“增加了配置比例”，但实际操作却是显著减仓，言行背离严重。"
+            },
+            {
+                "industry": "有色",
+                "say_stance": "看空",
+                "actual_action": "减仓",
+                "is_consistent": true,
+                "comment": "报告明确看空并表示将适度减仓，实际采矿业（涵盖有色金属）大幅减仓，高度一致。"
+            },
+            {
+                "industry": "黄金",
+                "say_stance": "看空",
+                "actual_action": "减仓",
+                "is_consistent": true,
+                "comment": "报告提及短期看空并已减少配置，实际采矿业（涵盖黄金开采）大幅减仓，体现了与短期判断的一致性。"
+            },
+            {
+                "industry": "化工",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "明确表达看好内需相关机会，但实际调仓中未见化工行业有明确的显著加仓动作，言行存在脱节。"
+            },
+            {
+                "industry": "建材",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "明确表达看好内需相关机会，但实际调仓中未见建材行业有明确的显著加仓动作，言行存在脱节。"
+            },
+            {
+                "industry": "房地产",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "明确表达看好内需相关机会，但实际调仓中未见房地产行业有明确的显著加仓动作，言行存在脱节。"
+            },
+            {
+                "industry": "消费",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "报告称因需求韧性和低估值“适当有所增持”，但实际持仓中消费板块未见显著增持，构成言行不一。"
+            },
+            {
+                "industry": "制造业",
+                "say_stance": "中性",
+                "actual_action": "加仓",
+                "is_consistent": false,
+                "comment": "报告称对制造业持“中性”态度并“保持配置”，实际却进行了全行业最大幅度的加仓，言行完全相悖。"
+            },
+            {
+                "industry": "交通运输业",
+                "say_stance": "中性",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "报告称中性并保持配置，实际未见显著调仓，言行一致。"
+            },
+            {
+                "industry": "工业",
+                "say_stance": "未重点提及",
+                "actual_action": "加仓",
+                "is_consistent": false,
+                "comment": "工业作为第二大加仓方向，基金经理在报告中却未对其整体战略性加仓给出明确说明，存在信息披露缺失。"
+            },
+            {
+                "industry": "金融业",
+                "say_stance": "未重点提及",
+                "actual_action": "减仓",
+                "is_consistent": false,
+                "comment": "金融业作为第四大减仓方向，基金经理在报告中对其大幅减仓的意图和原因只字未提，存在严重的信息披露缺失。"
+            }
+        ],
+        "diagnostic_summary": "本报告期，基金经理在关键行业的言行出现显著偏离。在“能源”和“制造业”上，其报告中的战术意图与实际调仓动作完全相反，构成严重的风格漂移和言行不一。同时，报告声称看好并拟增持的“化工”、“建材”、“房地产”和“消费”板块，在实际持仓中却未见显著行动，显得其言论流于形式。更令人担忧的是，对于“工业”的显著加仓和“金融业”的大幅减仓等重要操作，报告中却几乎只字未提，暴露出严重的业绩归因偏离与信息披露缺失，使得基金的投资逻辑透明度大打折扣。",
+        "challenge_question": "基金经理，请你正面回应：在报告中你明确指出看好“能源”并“增加了配置比例”，但期末底层持仓却显示“能源”仓位显著“减仓”；同时，对“制造业”你声称“中性、保持配置”，实际却成为本期“最大幅加仓”的板块。这种言行之间南辕北辙的巨大偏离，究竟是你的投资策略执行力存在严重问题，是市场波动完全超出了你的预判，还是这份季度报告根本就是一份缺乏真实性、误导投资者的“事后诸葛亮式”归因报告？对于“工业”的隐性大幅加仓和“金融业”的显著减仓这类重大调仓，报告中为何只字未提，这难道不是对信息披露合规性和投资者知情权的漠视？"
+    }
+}

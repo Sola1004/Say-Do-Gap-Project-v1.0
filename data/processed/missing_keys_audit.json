@@ -1,0 +1,50 @@
+[
+    {
+        "fund_code": "010245",
+        "end_date": "2025-12-31",
+        "report_type_id": "6",
+        "composite_key": "010245_2025-12-31_R6"
+    },
+    {
+        "fund_code": "010245",
+        "end_date": "2026-03-31",
+        "report_type_id": "1",
+        "composite_key": "010245_2026-03-31_R1"
+    },
+    {
+        "fund_code": "010245",
+        "end_date": "2026-06-30",
+        "report_type_id": "2",
+        "composite_key": "010245_2026-06-30_R2"
+    },
+    {
+        "fund_code": "010245",
+        "end_date": "2026-06-30",
+        "report_type_id": "5",
+        "composite_key": "010245_2026-06-30_R5"
+    },
+    {
+        "fund_code": "162606",
+        "end_date": "2025-12-31",
+        "report_type_id": "6",
+        "composite_key": "162606_2025-12-31_R6"
+    },
+    {
+        "fund_code": "162606",
+        "end_date": "2026-03-31",
+        "report_type_id": "1",
+        "composite_key": "162606_2026-03-31_R1"
+    },
+    {
+        "fund_code": "162606",
+        "end_date": "2026-06-30",
+        "report_type_id": "2",
+        "composite_key": "162606_2026-06-30_R2"
+    },
+    {
+        "fund_code": "162606",
+        "end_date": "2026-06-30",
+        "report_type_id": "5",
+        "composite_key": "162606_2026-06-30_R5"
+    }
+]

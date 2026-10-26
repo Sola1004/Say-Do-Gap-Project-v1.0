@@ -1,0 +1,104 @@
+{
+    "composite_key": "260108_2026-06-30_R5",
+    "left_do_fact": {
+        "fund_code": "260108",
+        "end_date": "2026-06-30",
+        "report_type_id": 5,
+        "actual_actions": [
+            {
+                "industry": "制造业",
+                "action_type": "减仓",
+                "weight_change_pct": -10.78,
+                "change_rank": 1
+            },
+            {
+                "industry": "租赁和商务服务业",
+                "action_type": "减仓",
+                "weight_change_pct": -4.38,
+                "change_rank": 2
+            },
+            {
+                "industry": "科学研究和技术服务业",
+                "action_type": "加仓",
+                "weight_change_pct": 2.5,
+                "change_rank": 3
+            },
+            {
+                "industry": "卫生和社会工作",
+                "action_type": "持平",
+                "weight_change_pct": -0.27,
+                "change_rank": 4
+            },
+            {
+                "industry": "交通运输、仓储和邮政业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-06-30 报告期，调仓最大的是 制造业（变动 -10.78%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "震荡",
+        "industry_views": [],
+        "key_factors": [
+            "经济底部区域",
+            "经济复苏放缓",
+            "房地产周期",
+            "内生动能不足",
+            "财政支出节奏",
+            "海外地缘冲突",
+            "实体资金充裕",
+            "流动性宽松",
+            "产业景气分化",
+            "资金高度集中"
+        ],
+        "confidence_score": 0.9
+    },
+    "comparison_result": {
+        "fund_code": "260108",
+        "end_date": "2026-06-30",
+        "consistency_score": 0.75,
+        "gap_type": "嘴硬体正直/暗中布局",
+        "industry_comparisons": [
+            {
+                "industry": "制造业",
+                "say_stance": "未重点提及",
+                "actual_action": "减仓",
+                "is_consistent": true,
+                "comment": "报告中未明确提及对制造业的观点，但实际大幅减仓-10.78%，显示其战术执行的隐蔽性与实际操作的果断。"
+            },
+            {
+                "industry": "租赁和商务服务业",
+                "say_stance": "未重点提及",
+                "actual_action": "减仓",
+                "is_consistent": true,
+                "comment": "报告期内对租赁和商务服务业未披露具体立场，却进行了显著的减仓操作，言行之间存在明显信息鸿沟。"
+            },
+            {
+                "industry": "科学研究和技术服务业",
+                "say_stance": "未重点提及",
+                "actual_action": "加仓",
+                "is_consistent": true,
+                "comment": "对科学研究和技术服务业未发表明确观点，但实际却进行了2.5%的增持，体现了其未言明的配置偏好与实际行动的偏离。"
+            },
+            {
+                "industry": "卫生和社会工作",
+                "say_stance": "未重点提及",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "报告中对卫生和社会工作无重点提及，持仓变动亦不大，保持相对一致。"
+            },
+            {
+                "industry": "交通运输、仓储和邮政业",
+                "say_stance": "未重点提及",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "对交通运输、仓储和邮政业未有言论，持仓维持不变，基本吻合未提及状态。"
+            }
+        ],
+        "diagnostic_summary": "本报告期基金经理的言论（Say）侧重于宏观经济背景和市场情绪的泛泛而谈，如“经济底部区域”、“产业景气分化”、“资金高度集中”等，并未触及任何具体行业的战术性观点。然而，其期末持仓（Do）却显示出明确而大幅度的行业结构调整，特别是对制造业和租赁与商务服务业的大幅减仓，以及对科学研究和技术服务业的积极加仓。这种“嘴上无声，手上有料”的模式，构成了典型的‘嘴硬体正直/暗中布局’，基金经理在报告中对实际投资策略的披露明显不足，策略的透明度亟待提升。",
+        "challenge_question": "基金经理，你在报告中用大量篇幅阐述了宏观经济的“震荡”与“内生动能不足”，并提及“产业景气分化”与“资金高度集中”，这些皆是市场共识。然而，对于你本期投资组合中最为显著、影响深远的制造业巨额减仓超10%，以及对科技服务业的逆势加仓，却只字未提。请问，这种战略性静默是出于何种深层次的考量？究竟是你对市场判断与实际操作之间的逻辑链条存在断裂，难以自洽于书面，还是有意对持有人隐瞒了关键的战术布局，将信息披露简化为缺乏洞见的宏大叙事？请直面你的Say-Do Gap，为何不愿让你的言论匹配你果敢的行动？"
+    }
+}

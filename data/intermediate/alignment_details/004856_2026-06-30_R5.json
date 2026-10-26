@@ -1,0 +1,90 @@
+{
+    "composite_key": "004856_2026-06-30_R5",
+    "left_do_fact": {
+        "fund_code": "004856",
+        "end_date": "2026-06-30",
+        "report_type_id": 5,
+        "actual_actions": [
+            {
+                "industry": "交通运输、仓储和邮政业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 1
+            },
+            {
+                "industry": "住宿和餐饮业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 2
+            },
+            {
+                "industry": "信息传输、软件和信息技术服务业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 3
+            },
+            {
+                "industry": "农、林、牧、渔业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 4
+            },
+            {
+                "industry": "制造业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-06-30 报告期，调仓最大的是 交通运输、仓储和邮政业（变动 0.0%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "利好",
+        "industry_views": [
+            {
+                "industry": "建筑材料",
+                "stance": "中性",
+                "reason": "本基金为被动指数型基金，采用完全复制法运作。对报告期内建材指数的大幅下跌仅作客观业绩归因（受价值指数弱势及关注度下降影响），不包含主观战术调仓意图。"
+            }
+        ],
+        "key_factors": [
+            "完全复制法",
+            "成长与价值分化",
+            "行业业绩归因",
+            "换手率变化"
+        ],
+        "confidence_score": 0.92
+    },
+    "comparison_result": {
+        "fund_code": "004856",
+        "end_date": "2026-06-30",
+        "consistency_score": 0.99,
+        "gap_type": "高度一致",
+        "industry_comparisons": [
+            {
+                "industry": "建筑材料",
+                "say_stance": "中性",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "基金经理明确指出为被动指数型基金，对建材指数下跌仅作客观业绩归因，无主观调仓意图。实际持仓数据亦显示该行业权重保持稳定，完全符合其被动管理模式。"
+            },
+            {
+                "industry": "交通运输、仓储和邮政业",
+                "say_stance": "未重点提及",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "基金作为被动指数型，未在言论中重点提及此行业。实际操作中，该行业持仓权重也未发生任何变动，体现了严格的指数复制策略。"
+            },
+            {
+                "industry": "制造业",
+                "say_stance": "未重点提及",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "言论中对制造业板块无明确方向性指引。实际持仓数据显示，该核心板块权重保持不变，与基金的被动管理原则完全吻合。"
+            }
+        ],
+        "diagnostic_summary": "该基金作为一只明确宣称采用完全复制法的被动指数型产品，本报告期内其公开言论（Say）与期末实际持仓行为（Do）表现出极其罕见的内在一致性。基金经理在报告中明确否认了任何主观战术调仓意图，仅限于对市场及行业表现进行客观的业绩归因，而底层持仓数据也毫无保留地验证了这一点，各行业权重未见丝毫主动性变动。这从根本上规避了主动权益基金常见的行为金融学上的“言行不一”风险，其操作逻辑与信息披露高度透明且吻合。若要寻求偏离，可能只存在于报告内容深度而非实际操作层面。",
+        "challenge_question": "既然贵基金明确宣告为被动指数型，严格奉行完全复制法，且报告中再三强调无主观战术意图，那么，除了机械地复述指数表现进行‘客观业绩归因’外，贵司的定期报告能否提供更具价值的信息增量？例如，在确保跟踪误差最小化、复制效率最大化以及应对极端市场波动方面，贵司究竟采取了哪些精细化的管理策略？这种缺乏更深层次管理细节的‘言说’，除了满足形式合规，对投资者而言，其阅读价值与投资决策参考意义又在何处？"
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "composite_key": "005267_2026-03-31_R1",
+    "left_do_fact": {
+        "fund_code": "005267",
+        "end_date": "2026-03-31",
+        "report_type_id": 1,
+        "actual_actions": [
+            {
+                "industry": "制造业",
+                "action_type": "减仓",
+                "weight_change_pct": -9.69,
+                "change_rank": 1
+            },
+            {
+                "industry": "能源",
+                "action_type": "加仓",
+                "weight_change_pct": 6.05,
+                "change_rank": 2
+            },
+            {
+                "industry": "采矿业",
+                "action_type": "加仓",
+                "weight_change_pct": 1.64,
+                "change_rank": 3
+            },
+            {
+                "industry": "金融业",
+                "action_type": "加仓",
+                "weight_change_pct": 1.41,
+                "change_rank": 4
+            },
+            {
+                "industry": "工业",
+                "action_type": "加仓",
+                "weight_change_pct": 1.4,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-03-31 报告期，调仓最大的是 制造业（变动 -9.69%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "震荡",
+        "industry_views": [
+            {
+                "industry": "上游能源类资产",
+                "stance": "看好",
+                "reason": "去年四季度逐渐加大重视和配置；当前仍看好；受海外地缘政治冲突及霍尔木兹海峡停摆影响，全球能源供给受冲击，油价高位，驱动量、利润率、价格改善。"
+            },
+            {
+                "industry": "中游制造业",
+                "stance": "看好",
+                "reason": "加大了配置；供需形势好转，在成本推动下，部分企业盈利空间开始从底部向上扩张。"
+            },
+            {
+                "industry": "下游消费行业",
+                "stance": "中性",
+                "reason": "开始关注景气复苏，但文本中未明确表达已加大配置或明确看好。"
+            },
+            {
+                "industry": "科技景气下高估值资产",
+                "stance": "看空",
+                "reason": "非常谨慎，认为部分资产极其高估，存在外部风险不确定性。"
+            },
+            {
+                "industry": "公用事业类资产",
+                "stance": "看好",
+                "reason": "从防风险、控波动的角度重视，积极寻找投资标的，以提高组合在复杂环境下的韧性。"
+            }
+        ],
+        "key_factors": [
+            "工业企业利润增速",
+            "外需拉动",
+            "上游周期品价格",
+            "地缘政治风险",
+            "油价波动",
+            "能源供给冲击",
+            "滞胀预期",
+            "市场波动率",
+            "风险偏好",
+            "中国资产重估",
+            "制造业成本传导",
+            "消费景气度",
+            "估值水平",
+            "防御性资产配置"
+        ],
+        "confidence_score": 0.9
+    },
+    "comparison_result": {
+        "fund_code": "005267",
+        "end_date": "2026-03-31",
+        "consistency_score": 0.45,
+        "gap_type": "风格漂移/言行不一",
+        "industry_comparisons": [
+            {
+                "industry": "上游能源类资产",
+                "say_stance": "看好",
+                "actual_action": "加仓",
+                "is_consistent": true,
+                "comment": "基金经理明确看好并声称持续加大配置，实际行动中对“能源”和“采矿业”进行了显著加仓，言行高度一致，体现了对能源周期的坚定看好。"
+            },
+            {
+                "industry": "中游制造业",
+                "say_stance": "看好",
+                "actual_action": "减仓",
+                "is_consistent": false,
+                "comment": "基金经理在报告中明确表示“中游制造业加大了配置”，但实际操作中，“制造业”却是本期最大的减仓项，幅度高达-9.69%，与言论形成强烈反差。尽管“工业”有小幅加仓，但无法弥补“制造业”这一核心领域的巨大偏离，构成严重的言行不一。"
+            },
+            {
+                "industry": "下游消费行业",
+                "say_stance": "中性",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "基金经理对下游消费持中性关注态度，实际持仓未有显著增减，与谨慎观望的言论吻合。"
+            },
+            {
+                "industry": "科技景气下高估值资产",
+                "say_stance": "看空",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "基金经理明确表达对科技高估值资产的谨慎态度，实际行动中未见显著加仓或减仓，符合回避或维持低配的策略。"
+            },
+            {
+                "industry": "公用事业类资产",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "基金经理报告中提及看好公用事业的防御性，并表示积极寻找标的。实际持仓未在主要变动之列，可能仍处于观察或小幅配置阶段，未构成明确的言行不一。"
+            }
+        ],
+        "diagnostic_summary": "本报告期基金经理在“中游制造业”的策略执行上存在显著的言行背离。口头上强调“加大配置”，但实际行动却是在该领域进行了高达9.69%的、位居榜首的大幅减仓，这与对上游能源的坚定加仓形成了鲜明对比。这种关键领域上的决策与表述严重脱节，暴露出基金经理在策略传达或执行上存在深层矛盾。",
+        "challenge_question": "您在报告中信誓旦旦地宣称对“中游制造业”加大了配置，然而，我们量化分析发现，期末该行业竟是您组合中最大的减仓项，幅度高达-9.69%！请问，这究竟是您在季报发布时对自身持仓变动存在严重的认知偏差，导致信息披露出现重大谬误？还是您在短短数月内，对“中游制造业”的投资逻辑发生了180度的根本性逆转，却未向投资者做出任何有效的解释或预警？如此南辕北辙的“言”与“行”，如何确保您的投资策略具备应有的透明度、连贯性与可信度，又如何维护您作为基金经理的专业声誉？"
+    }
+}

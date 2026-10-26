@@ -1,0 +1,164 @@
+{
+    "composite_key": "006345_2026-06-30_R2",
+    "left_do_fact": {
+        "fund_code": "006345",
+        "end_date": "2026-06-30",
+        "report_type_id": 2,
+        "actual_actions": [
+            {
+                "industry": "交通运输、仓储和邮政业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 1
+            },
+            {
+                "industry": "住宿和餐饮业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 2
+            },
+            {
+                "industry": "信息传输、软件和信息技术服务业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 3
+            },
+            {
+                "industry": "公用事业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 4
+            },
+            {
+                "industry": "农、林、牧、渔业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-06-30 报告期，调仓最大的是 交通运输、仓储和邮政业（变动 0.0%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "震荡",
+        "industry_views": [
+            {
+                "industry": "AI算力",
+                "stance": "看好",
+                "reason": "AI算力投入景气度持续加码，作为组合中海外算力配置的一部分。"
+            },
+            {
+                "industry": "上游关键材料和设备",
+                "stance": "看好",
+                "reason": "上游关键材料和设备紧缺加剧，涨价蔓延，作为弹性配置。"
+            },
+            {
+                "industry": "先进制造",
+                "stance": "看好",
+                "reason": "致力于长期成长的先进制造领域，是基金深耕方向。"
+            },
+            {
+                "industry": "科技绩优龙头品种",
+                "stance": "看好",
+                "reason": "作为稳健的底仓配置。"
+            },
+            {
+                "industry": "国内存储半导体设备",
+                "stance": "看好",
+                "reason": "与海外算力形成互补配置。"
+            },
+            {
+                "industry": "机器人部件",
+                "stance": "看好",
+                "reason": "与上游材料搭配配置。"
+            },
+            {
+                "industry": "传统制造和消费",
+                "stance": "中性",
+                "reason": "传统制造和消费领域未见明显景气拐点，仍需时间出清，传统资产表现不佳，基金未明确提及配置或看空，属于客观观察。"
+            },
+            {
+                "industry": "价值型公司(全球性敞口)",
+                "stance": "看好",
+                "reason": "保留基本面稳健、特别是全球性敞口的价值型公司，以使组合搭配更稳健并控制波动率。"
+            }
+        ],
+        "key_factors": [
+            "地缘政治风险消退",
+            "全球权益市场风险偏好提升",
+            "AI算力景气度",
+            "上游关键材料与设备紧缺",
+            "局部通胀风险",
+            "权益市场结构性行情",
+            "先进制造长期成长",
+            "波动率控制"
+        ],
+        "confidence_score": 0.9
+    },
+    "comparison_result": {
+        "fund_code": "006345",
+        "end_date": "2026-06-30",
+        "consistency_score": 0.25,
+        "gap_type": "风格漂移/言行不一",
+        "industry_comparisons": [
+            {
+                "industry": "AI算力",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "经理明确表示看好并作为组合配置一部分，但实际调仓数据（尤其在整体变动为零的背景下）未能体现任何主动加仓行为，存在言行不一。"
+            },
+            {
+                "industry": "上游关键材料和设备",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "经理声称看好并作为弹性配置，但实际调仓数据缺乏支持，未见主动增配，与言论相悖。"
+            },
+            {
+                "industry": "先进制造",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "经理强调是基金深耕方向，但报告期内未见有力的持仓调整印证此战略意图，执行层面存在脱节。"
+            },
+            {
+                "industry": "科技绩优龙头品种",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "经理将其定位为稳健底仓配置，但若真有配置意图，在缺乏整体调仓动作的情况下，其作为“看好”对象的战术执行存疑。"
+            },
+            {
+                "industry": "国内存储半导体设备",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "经理提及与海外算力互补配置，但在整体调仓停滞的背景下，此配置意图的实际落地效果令人质疑。"
+            },
+            {
+                "industry": "机器人部件",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "经理计划与上游材料搭配配置，但实际调仓数据并未支持此主动配置策略。"
+            },
+            {
+                "industry": "传统制造和消费",
+                "say_stance": "中性",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "经理对该领域持中性观点并观察，实际持仓维持不变，符合其客观判断而非主动调整策略。"
+            },
+            {
+                "industry": "价值型公司(全球性敞口)",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "经理表示会保留此类公司以控制波动率，实际持仓无变动，与“保留”的表述一致。"
+            }
+        ],
+        "diagnostic_summary": "本报告期基金经理在言论中对AI算力、先进制造、上游关键材料等高景气成长型赛道展现了极强的看好预期与明确的战术配置意图。然而，其客观持仓数据却呈现出惊人的静止状态，所有披露的行业权重变动均为0.0%，且报告总结也强调最大调仓幅度为零。这构成了一个极其显著的‘言行不一’，表明其策略规划与实际组合运作之间存在严重的脱节，或其信披未能充分揭示真实操作，导致投资者无法有效理解其业绩归因逻辑和未来风格走向。",
+        "challenge_question": "基金经理，您在报告中高调唱多AI算力、先进制造等核心成长赛道，并明确表达了‘作为配置一部分’、‘深耕方向’、‘弹性配置’等强烈的战术意图。然而，本期您的底层持仓调整数据却清晰无误地显示，所有披露行业权重变动均为零，甚至连报告摘要都强调最大调仓幅度为0.0%。请问，这种战略层面的雄心壮志与执行层面的纹丝不动，究竟是您的投资决策流程陷入了深度惰性？抑或是您在报告中描绘的‘投资布局’，仅仅是为静态组合找寻的‘事后归因’式叙事？这种言不由衷的信披，是对投资者知情权的一种刻意模糊，还是您管理能力上根本性的Say-Do Gap？"
+    }
+}

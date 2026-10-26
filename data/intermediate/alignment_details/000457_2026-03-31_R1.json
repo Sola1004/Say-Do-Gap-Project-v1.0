@@ -1,0 +1,115 @@
+{
+    "composite_key": "000457_2026-03-31_R1",
+    "left_do_fact": {
+        "fund_code": "000457",
+        "end_date": "2026-03-31",
+        "report_type_id": 1,
+        "actual_actions": [
+            {
+                "industry": "制造业",
+                "action_type": "加仓",
+                "weight_change_pct": 18.58,
+                "change_rank": 1
+            },
+            {
+                "industry": "金融业",
+                "action_type": "减仓",
+                "weight_change_pct": -13.0,
+                "change_rank": 2
+            },
+            {
+                "industry": "批发和零售业",
+                "action_type": "加仓",
+                "weight_change_pct": 2.07,
+                "change_rank": 3
+            },
+            {
+                "industry": "交通运输、仓储和邮政业",
+                "action_type": "减仓",
+                "weight_change_pct": -1.76,
+                "change_rank": 4
+            },
+            {
+                "industry": "信息传输、软件和信息技术服务业",
+                "action_type": "加仓",
+                "weight_change_pct": 1.47,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-03-31 报告期，调仓最大的是 制造业（变动 18.58%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "利好",
+        "industry_views": [
+            {
+                "industry": "成长股",
+                "stance": "看好",
+                "reason": "历史跌幅较大但业绩稳定增长的个股伴随业绩兑现有望获得超额收益"
+            },
+            {
+                "industry": "经济转型",
+                "stance": "看好",
+                "reason": "关注经济转型带来的投资机会"
+            },
+            {
+                "industry": "大消费",
+                "stance": "看好",
+                "reason": "居民可支配收入稳步提升，消费相关领域存在投资机会"
+            }
+        ],
+        "key_factors": [
+            "成长因子",
+            "低估值",
+            "业绩驱动",
+            "PMI重回荣枯线",
+            "大消费"
+        ],
+        "confidence_score": 0.95
+    },
+    "comparison_result": {
+        "fund_code": "000457",
+        "end_date": "2026-03-31",
+        "consistency_score": 0.68,
+        "gap_type": "嘴硬体正直/暗中布局",
+        "industry_comparisons": [
+            {
+                "industry": "制造业",
+                "say_stance": "看好",
+                "actual_action": "加仓",
+                "is_consistent": true,
+                "comment": "报告中虽未直指制造业，但强调布局'成长股'与'经济转型'，底层实际暴增18.58%仓位至制造业，行动体现了强烈的战术执行，但文本定性偏宏观模糊。"
+            },
+            {
+                "industry": "金融业",
+                "say_stance": "未重点提及",
+                "actual_action": "减仓",
+                "is_consistent": false,
+                "comment": "本期对金融业进行了高达13.00%的断崖式清算减仓，但定期报告中对该核心维度的巨幅撤退逻辑只字未提，存在重大信披缺位。"
+            },
+            {
+                "industry": "大消费 (批发和零售业等)",
+                "say_stance": "看好",
+                "actual_action": "加仓",
+                "is_consistent": true,
+                "comment": "言论中重点看好居民收入提升下的大消费机会，实际小幅加仓批发零售业2.07%，但相较于制造业的激进加仓，消费端战术权重占比相对克制。"
+            },
+            {
+                "industry": "信息传输、软件和信息技术服务业",
+                "say_stance": "看好",
+                "actual_action": "加仓",
+                "is_consistent": true,
+                "comment": "契合其对成长股与科技转型的乐观看法，实际仓位温和增加1.47%。"
+            },
+            {
+                "industry": "交通运输、仓储和邮政业",
+                "say_stance": "未重点提及",
+                "actual_action": "减仓",
+                "is_consistent": false,
+                "comment": "实际减仓1.76%，文本端未作相关归因说明。"
+            }
+        ],
+        "diagnostic_summary": "本期组合发生了剧烈的结构性大换血：从传统金融重仓彻底转向高端制造成长。虽然加仓制造业和TMT契合了文本中'看好经济转型与成长股'的叙事，但单季度暴砍金融板块13%的核心战术转向在报告中被完全隐匿，呈现出'嘴上大谈诗与远方（转型成长），暗中暴力砸盘金融'的严重信披脱节。",
+        "challenge_question": "请问基金经理：本期金融板块单季遭遇高达13.00%的断崖式减仓、制造业仓位暴增逾18%，组合底层已发生根本性风格重构，为何季报中对如此重大的金融资产撤退动因避而不谈，仅用‘看好转型与成长’一笔带过？这究竟是面对金融股回撤的主观恐慌性割肉，还是为了迎合市场热点、在季末对投资者进行了选择性信披甚至隐秘漂移？"
+    }
+}

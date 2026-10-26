@@ -1,0 +1,91 @@
+{
+    "composite_key": "004856_2026-03-31_R1",
+    "left_do_fact": {
+        "fund_code": "004856",
+        "end_date": "2026-03-31",
+        "report_type_id": 1,
+        "actual_actions": [
+            {
+                "industry": "制造业",
+                "action_type": "持平",
+                "weight_change_pct": 0.27,
+                "change_rank": 1
+            },
+            {
+                "industry": "采矿业",
+                "action_type": "持平",
+                "weight_change_pct": 0.02,
+                "change_rank": 2
+            },
+            {
+                "industry": "交通运输、仓储和邮政业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 3
+            },
+            {
+                "industry": "住宿和餐饮业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 4
+            },
+            {
+                "industry": "信息传输、软件和信息技术服务业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-03-31 报告期，调仓最大的是 制造业（变动 0.27%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "震荡",
+        "industry_views": [
+            {
+                "industry": "建筑材料",
+                "stance": "中性",
+                "reason": "本基金为被动指数完全复制运作，指数微涨主要系受金属类材料价格上涨影响，属于事后客观业绩归因，无主观战术调仓意图"
+            }
+        ],
+        "key_factors": [
+            "完全复制法",
+            "大小盘分化",
+            "换手率上升",
+            "波动率放大",
+            "金属价格驱动"
+        ],
+        "confidence_score": 0.92
+    },
+    "comparison_result": {
+        "fund_code": "004856",
+        "end_date": "2026-03-31",
+        "consistency_score": 0.98,
+        "gap_type": "高度一致",
+        "industry_comparisons": [
+            {
+                "industry": "建筑材料",
+                "say_stance": "中性",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "基金经理明确指出本基金为被动指数完全复制运作，对建筑材料的提及属于指数业绩归因，而非主观战术调仓意图。实际持仓变动亦极为微小，完全符合被动管理的特征，言行高度一致。"
+            },
+            {
+                "industry": "制造业",
+                "say_stance": "未重点提及",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "基金经理未在报告中就制造业给出主观战术判断。实际持仓微幅变动0.27%，符合被动指数基金因指数权重调整或跟踪误差控制而进行的被动微调，不构成言行不一。"
+            },
+            {
+                "industry": "采矿业",
+                "say_stance": "未重点提及",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "基金经理未就采矿业给出主观战术判断。实际持仓变动仅0.02%，此种极微小变动完全符合被动管理要求，与基金的被动属性高度匹配。"
+            }
+        ],
+        "diagnostic_summary": "该基金为被动指数完全复制型产品。报告期内基金经理的“言”明确界定为客观业绩归因，且强调无主观战术意图。实际“动”的表现为各行业权重微乎其微的被动调整，与被动管理理念高度吻合。不存在主动型基金常见的风格漂移或言行不一现象，呈现出极高的言行一致性。",
+        "challenge_question": "基金经理，您在报告中一再强调本基金为“被动指数完全复制运作”，对任何行业趋势的分析都明确归因于“事后客观业绩”，并断言“无主观战术调仓意图”。然而，我们观察到在报告期内，部分行业仍有细微的权重变动（如制造业变动0.27%）。请您精确阐明，在“完全复制”与“无主观战术”的双重承诺下，这些微小却客观存在的调仓行为，是否能够被更透明、更量化地归结为严格遵循指数规则的必然产物，而非在任何维度上，哪怕是毫厘之间，潜藏了任何基于您判断的“主动”修正？投资者需要彻底排除任何信息不对称的可能，以真正理解何为“完全复制”的极致边界。"
+    }
+}

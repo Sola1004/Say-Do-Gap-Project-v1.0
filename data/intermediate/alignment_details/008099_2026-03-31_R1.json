@@ -1,0 +1,103 @@
+{
+    "composite_key": "008099_2026-03-31_R1",
+    "left_do_fact": {
+        "fund_code": "008099",
+        "end_date": "2026-03-31",
+        "report_type_id": 1,
+        "actual_actions": [
+            {
+                "industry": "金融业",
+                "action_type": "减仓",
+                "weight_change_pct": -13.29,
+                "change_rank": 1
+            },
+            {
+                "industry": "租赁和商务服务业",
+                "action_type": "加仓",
+                "weight_change_pct": 5.4,
+                "change_rank": 2
+            },
+            {
+                "industry": "交通运输、仓储和邮政业",
+                "action_type": "加仓",
+                "weight_change_pct": 4.7,
+                "change_rank": 3
+            },
+            {
+                "industry": "原材料",
+                "action_type": "减仓",
+                "weight_change_pct": -3.42,
+                "change_rank": 4
+            },
+            {
+                "industry": "非日常生活消费品",
+                "action_type": "加仓",
+                "weight_change_pct": 3.14,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-03-31 报告期，调仓最大的是 金融业（变动 -13.29%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "震荡",
+        "industry_views": [
+            {
+                "industry": "能源/资源品",
+                "stance": "中性",
+                "reason": "地缘冲突阶段性推升能源价格与资源品行情属于客观市场复盘与外部事件影响，基金经理未表达主动战术配置意图。"
+            },
+            {
+                "industry": "传统经济相关行业",
+                "stance": "中性",
+                "reason": "仅客观提及传统经济领域部分子行业表现疲软，属于事后宏观复盘，未包含具体的战术性看空或调仓指令。"
+            }
+        ],
+        "key_factors": [
+            "红利因子",
+            "高低风格收敛",
+            "地缘政治风险",
+            "大宗商品价格波动",
+            "波动率外溢"
+        ],
+        "confidence_score": 0.92
+    },
+    "comparison_result": {
+        "fund_code": "008099",
+        "end_date": "2026-03-31",
+        "consistency_score": 0.42,
+        "gap_type": "嘴硬体正直/暗中布局",
+        "industry_comparisons": [
+            {
+                "industry": "金融业",
+                "say_stance": "未重点提及",
+                "actual_action": "减仓",
+                "is_consistent": false,
+                "comment": "季报文本对金融业高达13.29%的剧烈斩仓只字未提，主观信披与底层最核心的调仓动作严重脱节。"
+            },
+            {
+                "industry": "能源/资源品与原材料",
+                "say_stance": "中性",
+                "actual_action": "减仓",
+                "is_consistent": true,
+                "comment": "文本对地缘政治及资源品作事后客观归因，实际对原材料进行3.42%的减仓，表现相对温和吻合。"
+            },
+            {
+                "industry": "租赁和商务服务业",
+                "say_stance": "未重点提及",
+                "actual_action": "加仓",
+                "is_consistent": false,
+                "comment": "实际大幅加仓5.40%升至第二大调仓方向，但在季报观点中完全隐身，缺乏逻辑支撑。"
+            },
+            {
+                "industry": "交通运输、仓储和邮政业",
+                "say_stance": "未重点提及",
+                "actual_action": "加仓",
+                "is_consistent": false,
+                "comment": "实际加仓4.70%，文本未做任何战术布局说明，属于典型的暗中加仓。"
+            }
+        ],
+        "diagnostic_summary": "该基金本期呈现极高的言行偏离与信披脱节。基金经理在报告中大量充斥着事后宏观复盘与中性敷衍表述，未能透露任何战术倾向；然而底层持仓却经历了惊心动魄的再平衡——对金融业实施高达13.29%的大规模清洗，并同步向租赁服务与交运板块大幅搬砖。这种“言之无物、动如脱兔”的暗中布局形态，极大地剥夺了持有人对基金真实风格演变的知情权。",
+        "challenge_question": "作为基金经理，你在季度报告中洋洋洒洒进行宏观与地缘政治的泛泛归因，却对单期高达13.29%的金融业‘斩仓式’减仓以及对租赁商务、交运板块的重仓切入只字未提！这究竟是故意隐瞒战术转向以掩盖风格漂移，还是定期报告仅凭模板敷衍应付？持有人该如何信任一个连两位数仓位剧变都不敢或不屑在公开报告中给出逻辑解释的管理者？"
+    }
+}

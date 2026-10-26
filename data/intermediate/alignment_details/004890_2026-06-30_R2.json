@@ -1,0 +1,117 @@
+{
+    "composite_key": "004890_2026-06-30_R2",
+    "left_do_fact": {
+        "fund_code": "004890",
+        "end_date": "2026-06-30",
+        "report_type_id": 2,
+        "actual_actions": [
+            {
+                "industry": "租赁和商务服务业",
+                "action_type": "加仓",
+                "weight_change_pct": 9.7,
+                "change_rank": 1
+            },
+            {
+                "industry": "信息传输、软件和信息技术服务业",
+                "action_type": "减仓",
+                "weight_change_pct": -9.67,
+                "change_rank": 2
+            },
+            {
+                "industry": "水利、环境和公共设施管理业",
+                "action_type": "加仓",
+                "weight_change_pct": 4.56,
+                "change_rank": 3
+            },
+            {
+                "industry": "制造业",
+                "action_type": "减仓",
+                "weight_change_pct": -1.15,
+                "change_rank": 4
+            },
+            {
+                "industry": "文化、体育和娱乐业",
+                "action_type": "减仓",
+                "weight_change_pct": -0.51,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-06-30 报告期，调仓最大的是 租赁和商务服务业（变动 9.7%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "震荡",
+        "industry_views": [
+            {
+                "industry": "算力",
+                "stance": "看空",
+                "reason": "一季度市场波动较大，主题投资横行，组合压力较大，基金减持部分算力持仓以分散风险。"
+            },
+            {
+                "industry": "文娱类个股",
+                "stance": "看好",
+                "reason": "一季度市场波动较大，组合压力较大，基金增加文娱类个股，意在分散持仓并寻求新的增长点。"
+            }
+        ],
+        "key_factors": [
+            "牛市预期",
+            "主题投资",
+            "商业航天",
+            "AI应用",
+            "美伊军事冲突",
+            "全球资本市场震荡",
+            "一季报披露",
+            "景气度",
+            "光模块",
+            "存储",
+            "半导体",
+            "消费电子"
+        ],
+        "confidence_score": 0.9
+    },
+    "comparison_result": {
+        "fund_code": "004890",
+        "end_date": "2026-06-30",
+        "consistency_score": 0.35,
+        "gap_type": "风格漂移/言行不一",
+        "industry_comparisons": [
+            {
+                "industry": "算力",
+                "say_stance": "看空",
+                "actual_action": "减仓",
+                "is_consistent": true,
+                "comment": "基金经理在报告中明确表达对算力板块（对应信息传输、软件和信息技术服务业）的看空态度，实际操作中也进行了大幅减仓，言行基本一致。"
+            },
+            {
+                "industry": "文娱类个股",
+                "say_stance": "看好",
+                "actual_action": "减仓",
+                "is_consistent": false,
+                "comment": "报告中明确指出要'增加文娱类个股'以分散风险、寻求增长，然而实际操作（文化、体育和娱乐业）却是减仓，与公开表述完全背离，构成严重的言行不一。"
+            },
+            {
+                "industry": "租赁和商务服务业",
+                "say_stance": "未重点提及",
+                "actual_action": "加仓",
+                "is_consistent": false,
+                "comment": "该行业是报告期内实际仓位变动最大（加仓9.7%）的板块，但在基金经理的主观言论中却只字未提，显示核心投资策略披露的严重缺失或不透明。"
+            },
+            {
+                "industry": "水利、环境和公共设施管理业",
+                "say_stance": "未重点提及",
+                "actual_action": "加仓",
+                "is_consistent": false,
+                "comment": "报告期内有明显加仓动作的行业（加仓4.56%），但基金经理在主观言论中对其也未提及，未能充分阐释其重要投资逻辑。"
+            },
+            {
+                "industry": "制造业",
+                "say_stance": "未重点提及",
+                "actual_action": "减仓",
+                "is_consistent": true,
+                "comment": "报告中未重点提及，实际进行了小幅减仓，未构成重大言行偏离。"
+            }
+        ],
+        "diagnostic_summary": "本期报告中，基金经理在对'算力'板块的判断与实际操作上表现出一定的一致性。然而，对'文娱类个股'的判断与行动却南辕北辙，明确声明'看好'并意图'增加'，实际却进行了减仓。更令人警惕的是，实际仓位变动最大且具有显著影响的'租赁和商务服务业'与'水利、环境和公共设施管理业'，在报告的主观言论中却只字未提。这种选择性披露和核心策略的偏离，暗示了其投资策略的透明度存在严重不足，或实际操作与公开表述存在根本性的脱节。",
+        "challenge_question": "基金经理在报告中明确指出要'增加文娱类个股'以分散风险、寻求增长，为何期末实际操作却是减仓？这种南辕北辙的行动，究竟是战术执行力出现严重偏差，还是您的战略意图与基金持有人沟通的信息存在显著不对称，甚至是对其形成误导？对于报告期内实际仓位变动最大、且对业绩贡献或风险影响显著的'租赁和商务服务业'和'水利、环境和公共设施管理业'，您为何在主观言论中只字不提？这究竟是信息披露的疏忽，还是刻意隐藏了您的核心投资逻辑，以规避潜在的风格漂移指责？请对此作出明确解释，并说明您在信息披露上的诚意与原则！"
+    }
+}

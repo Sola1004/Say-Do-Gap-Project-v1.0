@@ -1,0 +1,113 @@
+{
+    "composite_key": "004890_2026-03-31_R1",
+    "left_do_fact": {
+        "fund_code": "004890",
+        "end_date": "2026-03-31",
+        "report_type_id": 1,
+        "actual_actions": [
+            {
+                "industry": "信息传输、软件和信息技术服务业",
+                "action_type": "加仓",
+                "weight_change_pct": 20.68,
+                "change_rank": 1
+            },
+            {
+                "industry": "文化、体育和娱乐业",
+                "action_type": "加仓",
+                "weight_change_pct": 4.88,
+                "change_rank": 2
+            },
+            {
+                "industry": "租赁和商务服务业",
+                "action_type": "减仓",
+                "weight_change_pct": -2.77,
+                "change_rank": 3
+            },
+            {
+                "industry": "采矿业",
+                "action_type": "减仓",
+                "weight_change_pct": -2.04,
+                "change_rank": 4
+            },
+            {
+                "industry": "制造业",
+                "action_type": "减仓",
+                "weight_change_pct": -1.89,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-03-31 报告期，调仓最大的是 信息传输、软件和信息技术服务业（变动 20.68%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "震荡",
+        "industry_views": [
+            {
+                "industry": "算力",
+                "stance": "看空",
+                "reason": "组合在三月中旬已减持部分算力持仓，且通胀与流动性收紧预期压制科技成长板块表现"
+            },
+            {
+                "industry": "文娱/传媒/消费电子",
+                "stance": "看好",
+                "reason": "组合三月中旬增加文娱类个股，并计划集中在传媒、消费电子等科技赛道寻找景气度方向"
+            },
+            {
+                "industry": "医药行业",
+                "stance": "看好",
+                "reason": "明确提出将积极挖掘医药行业的机会"
+            },
+            {
+                "industry": "能源替代与防御性板块",
+                "stance": "看好",
+                "reason": "油价上行推升通胀预期，强化了能源替代板块的交易逻辑与防御性板块的护盘作用"
+            }
+        ],
+        "key_factors": [
+            "美伊冲突",
+            "油价走势",
+            "通胀与降息预期",
+            "业绩期基本面验证",
+            "中国资产重估"
+        ],
+        "confidence_score": 0.95
+    },
+    "comparison_result": {
+        "fund_code": "004890",
+        "end_date": "2026-03-31",
+        "consistency_score": 0.35,
+        "gap_type": "风格漂移/言行不一",
+        "industry_comparisons": [
+            {
+                "industry": "信息传输、软件和信息技术服务业 / 算力科技",
+                "say_stance": "看空",
+                "actual_action": "加仓",
+                "is_consistent": false,
+                "comment": "报告中声称因流动性收紧与通胀预期压制而减持算力及科技成长，但实际操作却大幅加仓信息软件板块20.68%，位居调仓榜首，言行严重背离。"
+            },
+            {
+                "industry": "文化、体育和娱乐业 / 文娱传媒",
+                "say_stance": "看好",
+                "actual_action": "加仓",
+                "is_consistent": true,
+                "comment": "宣称增加文娱类个股配置，实际对文化、体育和娱乐业加仓4.88%，战术执行与言论保持一致。"
+            },
+            {
+                "industry": "采矿业 / 能源替代与防御板块",
+                "say_stance": "看好",
+                "actual_action": "减仓",
+                "is_consistent": false,
+                "comment": "口头高调看好油价上涨驱动的能源替代与防御逻辑，但底层持仓却对采矿业进行了2.04%的减仓，逻辑与动作相反。"
+            },
+            {
+                "industry": "医药行业",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "声称积极挖掘医药行业机会，但在前五大主力调仓变动中完全未见医药板块的有效加仓痕迹。"
+            }
+        ],
+        "diagnostic_summary": "本期季报呈现极其典型的“高偏离度言行撕裂”。基金经理在主观定性表述中展现出强烈的防御与避险姿态——强调通胀压力、看空算力并看好高油价下的能源防御；然而在定量调仓矩阵中，却展现出截然相反的高贝塔进攻姿态：大幅减持采矿业，并以单季度高达20.68%的惊人增幅猛烈加仓信息传输与软件服务业。这种“嘴上唱空科技看好防御、手上暴砸采矿暗度陈仓加科技”的现象，反映出极其严重的投研知行不一与策略漂移风险。",
+        "challenge_question": "请问基金经理：你在定期报告中高调警告流动性收紧压制科技成长、声称已减持算力并看好能源防御，为何实际操作却反手减持采矿业，并在信息软件板块上暴加超20个百分点的仓位？这种口头唱空防御、实操激进加仓高波动科技的严重言行撕裂，究竟是因为你在信披中故意掩盖真实的追涨路径，还是你的风控约束与战术执行体系已完全处于失控状态？"
+    }
+}

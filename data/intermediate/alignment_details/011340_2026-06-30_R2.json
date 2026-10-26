@@ -1,0 +1,127 @@
+{
+    "composite_key": "011340_2026-06-30_R2",
+    "left_do_fact": {
+        "fund_code": "011340",
+        "end_date": "2026-06-30",
+        "report_type_id": 2,
+        "actual_actions": [
+            {
+                "industry": "交通运输、仓储和邮政业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 1
+            },
+            {
+                "industry": "住宿和餐饮业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 2
+            },
+            {
+                "industry": "信息传输、软件和信息技术服务业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 3
+            },
+            {
+                "industry": "信息技术",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 4
+            },
+            {
+                "industry": "农、林、牧、渔业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-06-30 报告期，调仓最大的是 交通运输、仓储和邮政业（变动 0.0%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "利好",
+        "industry_views": [
+            {
+                "industry": "国产算力",
+                "stance": "看好",
+                "reason": "自主可控发展方向，维持重仓配置"
+            },
+            {
+                "industry": "存储",
+                "stance": "看好",
+                "reason": "重视景气度趋势变化，增加仓位"
+            },
+            {
+                "industry": "MLCC",
+                "stance": "看好",
+                "reason": "重视景气度趋势变化，增加仓位"
+            },
+            {
+                "industry": "有色板块",
+                "stance": "看空",
+                "reason": "继续回避，受到地缘政治冲突影响"
+            },
+            {
+                "industry": "固态电池",
+                "stance": "看空",
+                "reason": "产业趋势明朗但节奏存在波折，适当减仓以应对风险"
+            }
+        ],
+        "key_factors": [
+            "慢牛格局",
+            "结构分化",
+            "景气度趋势",
+            "自主可控",
+            "地缘政治冲突",
+            "产业趋势",
+            "风险管理"
+        ],
+        "confidence_score": 0.95
+    },
+    "comparison_result": {
+        "fund_code": "011340",
+        "end_date": "2026-06-30",
+        "consistency_score": 0.35,
+        "gap_type": "风格漂移/言行不一",
+        "industry_comparisons": [
+            {
+                "industry": "国产算力",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "经理在报告中声明对国产算力“维持重仓配置”，且整体看好，实际该领域（归属信息技术/信息传输）持仓持平，若此前已是重仓，则行为上可视为一致，但与“看好”情绪下积极增配的预期仍有落差。"
+            },
+            {
+                "industry": "存储",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "经理明确表示将因“景气度趋势变化”而“增加仓位”，但实际该领域（归属信息技术/信息传输）持仓却纹丝不动，与言论完全背离。"
+            },
+            {
+                "industry": "MLCC",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "经理同样明确提出要“增加仓位”以抓住“景气度趋势”，然而实际持仓却毫无变动，言行严重不符。"
+            },
+            {
+                "industry": "有色板块",
+                "say_stance": "看空",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "经理明确表示“继续回避”有色板块，考虑到实际持仓持平，若此前已无持仓或持仓极低，则可认为行为一致。"
+            },
+            {
+                "industry": "固态电池",
+                "say_stance": "看空",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "经理声明要“适当减仓以应对风险”，但实际该领域（归属相关制造业）持仓却未发生任何变动，直接违背了其主动风险管理的战术意图。"
+            }
+        ],
+        "diagnostic_summary": "本基金经理在报告期内的主观言论表现出清晰的战术意图：在国产算力维持重仓、积极加仓存储和MLCC，并主动减持固态电池、回避有色板块。然而，期末的实际持仓数据显示，所有主要行业权重均未发生任何变动。这种静态的、毫无调整的投资组合与基金经理在报告中大谈特谈的动态管理策略之间，存在着一道难以逾越的鸿沟，表明其言行严重不一，缺乏实际的战术执行力。",
+        "challenge_question": "基金经理，您在报告中信誓旦旦地宣称要“增加仓位”某某板块，又明确指出要“适当减仓”另一板块以应对风险，但实际调仓矩阵却显示所有权重纹丝不动。这究竟是您对市场趋势的判断缺乏执行的勇气，还是这些所谓的“战术意图”不过是为报告期业绩粉饰太平、事后找补的言语装饰？请直面这种巨大的Say-Do Gap，解释您的“主动管理”究竟体现在何处，抑或是本基金已沦为披着主动管理外衣的被动跟随型产品？"
+    }
+}

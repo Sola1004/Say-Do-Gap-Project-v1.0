@@ -1,0 +1,85 @@
+{
+    "composite_key": "004856_2026-06-30_R2",
+    "left_do_fact": {
+        "fund_code": "004856",
+        "end_date": "2026-06-30",
+        "report_type_id": 2,
+        "actual_actions": [
+            {
+                "industry": "制造业",
+                "action_type": "加仓",
+                "weight_change_pct": 0.71,
+                "change_rank": 1
+            },
+            {
+                "industry": "电力、热力、燃气及水生产和供应业",
+                "action_type": "持平",
+                "weight_change_pct": 0.05,
+                "change_rank": 2
+            },
+            {
+                "industry": "采矿业",
+                "action_type": "持平",
+                "weight_change_pct": -0.03,
+                "change_rank": 3
+            },
+            {
+                "industry": "信息传输、软件和信息技术服务业",
+                "action_type": "持平",
+                "weight_change_pct": -0.01,
+                "change_rank": 4
+            },
+            {
+                "industry": "交通运输、仓储和邮政业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-06-30 报告期，调仓最大的是 制造业（变动 0.71%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "利好",
+        "industry_views": [
+            {
+                "industry": "建筑材料",
+                "stance": "中性",
+                "reason": "基金采用完全复制法被动跟踪中证全指建筑材料指数，对报告期内指数大幅下跌仅做事后客观复盘与归因（受价值风格弱势拖累），不属于战术主观调仓看好"
+            }
+        ],
+        "key_factors": [
+            "货币财政宽松",
+            "盈利修复",
+            "外资回流",
+            "科技政策",
+            "风格因子（成长与价值分化）",
+            "换手率与波动率"
+        ],
+        "confidence_score": 0.95
+    },
+    "comparison_result": {
+        "fund_code": "004856",
+        "end_date": "2026-06-30",
+        "consistency_score": 0.93,
+        "gap_type": "高度一致",
+        "industry_comparisons": [
+            {
+                "industry": "建筑材料",
+                "say_stance": "中性",
+                "actual_action": "被动微调",
+                "is_consistent": true,
+                "comment": "报告文本清晰指出本基金采用完全复制法被动跟踪中证全指建筑材料指数，对建材板块的讨论完全属于事后指数表现与价值风格弱势的客观归因，无主观战术偏离。"
+            },
+            {
+                "industry": "制造业",
+                "say_stance": "未重点提及",
+                "actual_action": "加仓",
+                "is_consistent": true,
+                "comment": "制造业权重微增0.71%系指数成分股定期调整或资金申赎引起的被动权重再平衡，符合被动指数基金运作规律。"
+            }
+        ],
+        "diagnostic_summary": "本期言行一致性表现良好。作为被动指数型产品，基金经理严格遵守了完全复制策略，报告文本精准聚焦于指数成分股的客观复盘与风格归因，并未滥用主观战术预判，底层的微幅调仓完全符合被动跟踪与申赎再平衡特征。",
+        "challenge_question": "作为一只严格执行完全复制法的被动指数基金，你在定期报告中大篇幅堆砌‘宏观宽松’、‘外资回流’、‘科技政策’等宏观叙事，甚至将总体情绪定调为‘利好’，但实际操作中却毫无战术裁量权且完全受制于指数规则。这种‘宏观唱多但操作死板’的信披模板，究竟是在提供有价值的归因分析，还是在用泛化的宏观套话掩盖对跟踪误差与标的指数特质研究的偷懒？"
+    }
+}

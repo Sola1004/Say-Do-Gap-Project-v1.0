@@ -1,0 +1,110 @@
+{
+    "composite_key": "008099_2026-06-30_R2",
+    "left_do_fact": {
+        "fund_code": "008099",
+        "end_date": "2026-06-30",
+        "report_type_id": 2,
+        "actual_actions": [
+            {
+                "industry": "工业",
+                "action_type": "加仓",
+                "weight_change_pct": 6.2,
+                "change_rank": 1
+            },
+            {
+                "industry": "批发和零售业",
+                "action_type": "减仓",
+                "weight_change_pct": -4.5,
+                "change_rank": 2
+            },
+            {
+                "industry": "租赁和商务服务业",
+                "action_type": "减仓",
+                "weight_change_pct": -3.77,
+                "change_rank": 3
+            },
+            {
+                "industry": "制造业",
+                "action_type": "加仓",
+                "weight_change_pct": 3.63,
+                "change_rank": 4
+            },
+            {
+                "industry": "交通运输、仓储和邮政业",
+                "action_type": "加仓",
+                "weight_change_pct": 1.26,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-06-30 报告期，调仓最大的是 工业（变动 6.2%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "震荡",
+        "industry_views": [
+            {
+                "industry": "出行链",
+                "stance": "看好",
+                "reason": "持仓结构保持稳定，投资主要方向。基本面呈现高客座率、低供给增速，且预计油价将回归。同时，相关公司股价处于疫情后各种负面预期叠加的最低位置，具备逆向投资价值。"
+            }
+        ],
+        "key_factors": [
+            "地缘政治",
+            "AI景气度",
+            "结构性分化",
+            "市场情绪",
+            "估值收敛",
+            "市场波动率",
+            "逆向投资",
+            "行业供需",
+            "成本压力",
+            "需求复苏"
+        ],
+        "confidence_score": 0.9
+    },
+    "comparison_result": {
+        "fund_code": "008099",
+        "end_date": "2026-06-30",
+        "consistency_score": 0.75,
+        "gap_type": "嘴硬体正直/暗中布局",
+        "industry_comparisons": [
+            {
+                "industry": "交通运输、仓储和邮政业",
+                "say_stance": "看好",
+                "actual_action": "加仓",
+                "is_consistent": true,
+                "comment": "基金经理在报告中明确看好“出行链”板块（对应交通运输业）并将其定位为“主要投资方向”，实际操作中也进行了加仓，方向上言行一致。"
+            },
+            {
+                "industry": "工业",
+                "say_stance": "未重点提及",
+                "actual_action": "加仓",
+                "is_consistent": false,
+                "comment": "报告中未重点提及“工业”板块，但其却是本期基金最大的加仓方向，权重变动高达6.2%，成为实际仓位变动的核心驱动力之一。言论未能充分覆盖核心战术布局。"
+            },
+            {
+                "industry": "制造业",
+                "say_stance": "未重点提及",
+                "actual_action": "加仓",
+                "is_consistent": false,
+                "comment": "“制造业”是本期第二大加仓板块，权重变动3.63%，但基金经理对其在报告中同样未有明确阐述。这使得其言论与实际投资行为之间存在显著的信息不对称。"
+            },
+            {
+                "industry": "批发和零售业",
+                "say_stance": "未重点提及",
+                "actual_action": "减仓",
+                "is_consistent": true,
+                "comment": "报告中未提及此行业，实际操作为减仓，无直接冲突，属于未被披露的战术调整。"
+            },
+            {
+                "industry": "租赁和商务服务业",
+                "say_stance": "未重点提及",
+                "actual_action": "减仓",
+                "is_consistent": true,
+                "comment": "报告中未提及此行业，实际操作为减仓，无直接冲突，属于未被披露的战术调整。"
+            }
+        ],
+        "diagnostic_summary": "本报告期内，基金经理的“言”与“行”呈现出微妙的偏离。一方面，报告中明确看好并着重阐述的“出行链”板块，在实际操作中确实得到了加仓，方向上体现了言行一致性。但另一方面，基金本期最大的两大加仓动作——对“工业”和“制造业”的显著增配，却在报告中只字未提。这种选择性披露揭示了基金经理在公开表述上有所保留，或侧重强调特定叙事，而将更具实质影响的战术布局“暗中进行”。这并非典型的“风格漂移”，而更像是“嘴硬体正直/暗中布局”的特征，即言有所指，行有践，但行的全面性与关键性并未完全被言所覆盖。",
+        "challenge_question": "基金经理，你在报告中着力强调“出行链”的逆向投资价值与主攻方向，实际也小幅加仓1.26%。然而，贵基金本期仓位调整力度最大的却是“工业”和“制造业”，合计变动近10%，远超“出行链”！请问，对于如此重要的核心战术调整，为何在报告中只字未提？这究竟是信息披露的刻意选择，旨在保持“神秘感”并误导市场对真实风格的感知，还是你的投资决策框架与公开表述之间存在隐性偏离，导致投资者对基金的真实风险暴露和业绩归因产生严重误解？你是否有义务向持有人完整披露所有影响业绩的关键驱动因素，而非选择性呈现，进而规避潜在的言行不一质疑？"
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "composite_key": "000457_2026-06-30_R5",
+    "left_do_fact": {
+        "fund_code": "000457",
+        "end_date": "2026-06-30",
+        "report_type_id": 5,
+        "actual_actions": [
+            {
+                "industry": "制造业",
+                "action_type": "减仓",
+                "weight_change_pct": -7.86,
+                "change_rank": 1
+            },
+            {
+                "industry": "金融业",
+                "action_type": "加仓",
+                "weight_change_pct": 6.02,
+                "change_rank": 2
+            },
+            {
+                "industry": "信息传输、软件和信息技术服务业",
+                "action_type": "加仓",
+                "weight_change_pct": 2.52,
+                "change_rank": 3
+            },
+            {
+                "industry": "批发和零售业",
+                "action_type": "加仓",
+                "weight_change_pct": 1.68,
+                "change_rank": 4
+            },
+            {
+                "industry": "科学研究和技术服务业",
+                "action_type": "加仓",
+                "weight_change_pct": 1.3,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-06-30 报告期，调仓最大的是 制造业（变动 -7.86%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "利好",
+        "industry_views": [
+            {
+                "industry": "AI相关主线",
+                "stance": "看好",
+                "reason": "AI主线二季度涨幅明显，基金主观上重点配置了其中估值和成长相匹配的个股"
+            }
+        ],
+        "key_factors": [
+            "GARP（成长与估值匹配）",
+            "动量反转（减持高超额个股）",
+            "低关注度成长因子",
+            "宏观经济稳定（PMI/工业增加值）"
+        ],
+        "confidence_score": 0.9
+    },
+    "comparison_result": {
+        "fund_code": "000457",
+        "end_date": "2026-06-30",
+        "consistency_score": 0.58,
+        "gap_type": "嘴硬体正直/暗中布局",
+        "industry_comparisons": [
+            {
+                "industry": "信息传输、软件和信息技术服务业（AI主线）",
+                "say_stance": "看好",
+                "actual_action": "加仓",
+                "is_consistent": true,
+                "comment": "言行一致，确实增配2.52%，兑现了对AI科技成长的战术布局，但增仓幅度并非组合第一核心。"
+            },
+            {
+                "industry": "金融业",
+                "say_stance": "未重点提及",
+                "actual_action": "加仓",
+                "is_consistent": false,
+                "comment": "信披严重缺失。实际增仓6.02%，高居全组合加仓榜首，但季报投资策略中对金融板块的布局逻辑与持仓意图只字未提。"
+            },
+            {
+                "industry": "制造业",
+                "say_stance": "未重点提及",
+                "actual_action": "减仓",
+                "is_consistent": false,
+                "comment": "实际大幅斩仓7.86%，为组合最大减持方向，但在报告中仅用抽象的'动量反转减持高超额'泛泛带过，缺乏对制造业基本面转向的清晰说明。"
+            },
+            {
+                "industry": "科学研究和技术服务业",
+                "say_stance": "看好",
+                "actual_action": "加仓",
+                "is_consistent": true,
+                "comment": "作为AI及硬科技延伸产业链，实际加仓1.30%，与看好成长因子的主观表态相符。"
+            },
+            {
+                "industry": "批发和零售业",
+                "say_stance": "未重点提及",
+                "actual_action": "加仓",
+                "is_consistent": false,
+                "comment": "实际加仓1.68%，属于暗中增配消费顺周期资产，文字端未作任何归因与战术交代。"
+            }
+        ],
+        "diagnostic_summary": "本期基金经理存在典型的'声东击西'与信披选择性失真：在季报展望中高调宣扬'重点配置AI主线'以迎合市场聚光灯，但在底层真实调仓中，科技类资产（信软与科研合计约3.8%）仅为副攻，真正的主力战术竟是暗中暴买金融业（+6.02%）并对制造业实施断崖式斩仓（-7.86%），言行一致性显著偏离。",
+        "challenge_question": "你在定期报告中高调宣称'重点配置AI主线'，但底层数据显示加仓第一大头却是大举买入金融业（+6.02%），同时大幅砍仓制造业（-7.86%）。请问你这种'嘴上大谈科技AI、账户里狂买大金融'的暗度陈仓操作，究竟是基于GARP因子的量化漂移，还是为了迎合基民偏好的选择性信披？为何对组合发生决定性影响的金融加仓与制造减仓，在投资展望中竟然字句全无？"
+    }
+}

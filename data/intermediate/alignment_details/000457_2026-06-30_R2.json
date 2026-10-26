@@ -1,0 +1,57 @@
+{
+    "composite_key": "000457_2026-06-30_R2",
+    "left_do_fact": {
+        "fund_code": "000457",
+        "end_date": "2026-06-30",
+        "report_type_id": 2,
+        "actual_actions": [
+            {
+                "industry": "交通运输、仓储和邮政业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 1
+            },
+            {
+                "industry": "住宿和餐饮业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 2
+            },
+            {
+                "industry": "信息传输、软件和信息技术服务业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 3
+            },
+            {
+                "industry": "农、林、牧、渔业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 4
+            },
+            {
+                "industry": "制造业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-06-30 报告期，调仓最大的是 交通运输、仓储和邮政业（变动 0.0%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "not_disclosed",
+        "overall_sentiment": "合规异常",
+        "industry_views": [],
+        "key_factors": [
+            "信息披露缺失",
+            "合规风险"
+        ],
+        "confidence_score": 1.0
+    },
+    "comparison_result": {
+        "consistency_score": 0.0,
+        "gap_type": "信息披露违规",
+        "diagnostic_summary": "经系统核查，该基金在报告期 2026-06-30 的运作分析章节存在未披露或空白情形。",
+        "challenge_question": "既然定期报告已发布，但运作分析章节却选择空置或未披露，管理人是在刻意回避业绩归因，还是有规避合规质询的嫌疑？"
+    }
+}

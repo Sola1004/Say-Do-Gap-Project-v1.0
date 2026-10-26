@@ -1,0 +1,128 @@
+{
+    "composite_key": "005267_2026-06-30_R2",
+    "left_do_fact": {
+        "fund_code": "005267",
+        "end_date": "2026-06-30",
+        "report_type_id": 2,
+        "actual_actions": [
+            {
+                "industry": "交通运输、仓储和邮政业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 1
+            },
+            {
+                "industry": "住宿和餐饮业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 2
+            },
+            {
+                "industry": "信息传输、软件和信息技术服务业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 3
+            },
+            {
+                "industry": "信息技术",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 4
+            },
+            {
+                "industry": "公用事业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-06-30 报告期，调仓最大的是 交通运输、仓储和邮政业（变动 0.0%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "震荡",
+        "industry_views": [
+            {
+                "industry": "能源",
+                "stance": "看好",
+                "reason": "投资操作上适当加大了配置"
+            },
+            {
+                "industry": "有色（含黄金）",
+                "stance": "看空",
+                "reason": "对有色（含黄金）适当有所减持"
+            },
+            {
+                "industry": "低估中游制造业",
+                "stance": "看好",
+                "reason": "在波动中加仓了一些低估的中游制造业"
+            },
+            {
+                "industry": "消费品",
+                "stance": "看好",
+                "reason": "在波动中加仓了一些低估的消费品"
+            },
+            {
+                "industry": "高估值AI硬件/热门题材",
+                "stance": "看空",
+                "reason": "未参与火热的AI硬件及其他热门题材，认为当市场指数过度集中于最大成分股时风险最大，坚持合理偏低价格买入的定价策略"
+            }
+        ],
+        "key_factors": [
+            "PMI数据",
+            "工业企业利润",
+            "AI产业趋势",
+            "宏观经济下行",
+            "政策支持",
+            "市场K型分化",
+            "估值风险",
+            "价值投资理念"
+        ],
+        "confidence_score": 0.95
+    },
+    "comparison_result": {
+        "fund_code": "005267",
+        "end_date": "2026-06-30",
+        "consistency_score": 0.2,
+        "gap_type": "风格漂移/言行不一",
+        "industry_comparisons": [
+            {
+                "industry": "能源",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "基金经理在报告中明确表示看好并声称“适当加大配置”，但实际持仓数据显示该行业权重在本报告期内未发生变动，与言论严重背离。"
+            },
+            {
+                "industry": "有色（含黄金）",
+                "say_stance": "看空",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "报告中明确提出“适当有所减持”，但客观持仓数据显示该行业权重实际上保持不变，与主动减仓的意图完全不符。"
+            },
+            {
+                "industry": "低估中游制造业",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "报告里强调“在波动中加仓了一些低估的中游制造业”，然而实际仓位数据却显示此行业权重纹丝未动，言行存在显著差异。"
+            },
+            {
+                "industry": "消费品",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "基金经理声称“在波动中加仓了一些低估的消费品”，但持仓数据表明消费品行业权重未有任何提升，存在明显的言行不一。"
+            },
+            {
+                "industry": "高估值AI硬件/热门题材",
+                "say_stance": "看空",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "基金经理表示“未参与火热的AI硬件及其他热门题材”，而相关信息技术行业（信息传输、软件和信息技术服务业、信息技术）持仓保持不变，此举与规避高估值、不主动追高的策略保持一致。"
+            }
+        ],
+        "diagnostic_summary": "本期基金经理在报告中描绘了一幅积极主动、有明确战术方向的投资图景，对多个行业提出“加仓”或“减持”的意图。然而，底层客观持仓数据显示，在整个报告期内，基金组合的所有行业权重几乎纹丝不动，最大调仓幅度仅为0.0%。这表明基金经理的“言”与“行”之间存在着极其严重的脱节，其报告中的主观判断未能转化为任何实际的组合调整，暴露出决策执行力或信息披露真实性的深层问题。",
+        "challenge_question": "基金经理，你在本期报告中字字珠玑地描述了对能源、消费品与低估中游制造业的“加仓”意图，以及对有色行业的“减持”策略，言语间尽显主动管理的决心。然而，底层持仓数据却无情地揭示，本期您的组合在所有行业权重上均纹丝不动，最大调仓幅度竟为0.0%。这种“言必行，行必果”的基金经理基本职业操守，在你这里为何成了“言而不行”？请直面你的投资者：这究竟是战术意图与执行能力的严重脱节，抑或是报告期言论纯粹流于形式的“锦上添花”，实则无任何实质性操作？你的投资理念和行动逻辑，究竟是否存在难以自洽的深层矛盾？"
+    }
+}

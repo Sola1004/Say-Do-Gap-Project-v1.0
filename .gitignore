@@ -1,0 +1,11 @@
+# 忽略未压缩的原始大文件夹和 CSV 文件
+data/raw/quantitative_market/按行业分类的股票投资组合文件/
+data/raw/quantitative_market/*.csv
+
+# 明确允许并放行这个 zip 压缩包
+!data/raw/quantitative_market/按行业分类的股票投资组合文件.zip
+
+# 忽略 Python 虚拟环境和缓存
+.venv/
+__pycache__/
+.DS_Store

@@ -1,0 +1,92 @@
+{
+    "composite_key": "004890_2026-06-30_R5",
+    "left_do_fact": {
+        "fund_code": "004890",
+        "end_date": "2026-06-30",
+        "report_type_id": 5,
+        "actual_actions": [
+            {
+                "industry": "交通运输、仓储和邮政业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 1
+            },
+            {
+                "industry": "住宿和餐饮业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 2
+            },
+            {
+                "industry": "信息传输、软件和信息技术服务业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 3
+            },
+            {
+                "industry": "农、林、牧、渔业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 4
+            },
+            {
+                "industry": "制造业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-06-30 报告期，调仓最大的是 交通运输、仓储和邮政业（变动 0.0%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "震荡",
+        "industry_views": [
+            {
+                "industry": "算力",
+                "stance": "看空",
+                "reason": "在一季度市场波动较大、主题投资热度放缓及地缘冲突影响下，主动减持了部分算力持仓。"
+            },
+            {
+                "industry": "文娱",
+                "stance": "看好",
+                "reason": "在一季度市场调整后，主动增加了文娱类个股的持仓，以分散风险并可能寻找价值。"
+            }
+        ],
+        "key_factors": [
+            "市场波动",
+            "主题投资",
+            "地缘政治风险",
+            "牛市预期",
+            "业绩披露",
+            "AI概念",
+            "科技硬件",
+            "风险分散"
+        ],
+        "confidence_score": 0.9
+    },
+    "comparison_result": {
+        "fund_code": "004890",
+        "end_date": "2026-06-30",
+        "consistency_score": 0.15,
+        "gap_type": "风格漂移/言行不一",
+        "industry_comparisons": [
+            {
+                "industry": "算力 (对应信息传输、软件和信息技术服务业)",
+                "say_stance": "看空",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "基金经理在报告中明确声称“主动减持了部分算力持仓”，但底层客观数据显示，与算力高度相关的“信息传输、软件和信息技术服务业”权重变动为0.0%，呈现“持平”状态，与言论完全背离。"
+            },
+            {
+                "industry": "文娱",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": false,
+                "comment": "基金经理在报告中强调“主动增加了文娱类个股的持仓”，然而，在所有底层行业调仓数据中，并未观测到任何明确的加仓迹象，所有列出的行业权重均为“持平”（0.0%变动），与其积极的增持言论形成强烈反差。"
+            }
+        ],
+        "diagnostic_summary": "本报告期内，基金经理的公开言论与实际投资行为之间存在着令人震惊的巨大鸿沟。基金经理在报告中明确表达了针对“算力”行业的减持战术意图和对“文娱”行业的增持意愿，且用词均为“主动”操作。然而，我们通过期末持仓数据交叉验证发现，所有重点行业权重在报告期内均未发生任何实质性变动（0.0%），这与基金经理所宣称的积极调仓动作完全相悖。这种言行不一的现象，绝非简单的被动跟随或业绩归因，而是典型的风格漂移或信息披露失真。",
+        "challenge_question": "基金经理，您在报告中言之凿凿地宣称“主动减持了部分算力持仓”并“主动增加了文娱类个股的持仓”，却在期末底层持仓明细中，所有主要行业权重均纹丝不动，最大变动率惊人地显示为零。请问，您报告中所谓的‘主动’操作，究竟是真实存在的投资行为，只是在数据披露上被奇迹般地‘抹平’，还是纯粹为了构建一个‘积极管理’的叙事幻象，以掩盖投资策略的僵化或执行力的严重缺失？这种言行严重不一，究竟是对投资者信披的漫不经心，还是在对您的投资理念和风格进行一次‘风格漂移’的深度自我批判？请务必给出清晰、可验证，而非空泛的解释！"
+    }
+}

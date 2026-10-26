@@ -1,0 +1,120 @@
+{
+    "composite_key": "011340_2026-06-30_R5",
+    "left_do_fact": {
+        "fund_code": "011340",
+        "end_date": "2026-06-30",
+        "report_type_id": 5,
+        "actual_actions": [
+            {
+                "industry": "信息技术",
+                "action_type": "加仓",
+                "weight_change_pct": 4.68,
+                "change_rank": 1
+            },
+            {
+                "industry": "信息传输、软件和信息技术服务业",
+                "action_type": "加仓",
+                "weight_change_pct": 3.99,
+                "change_rank": 2
+            },
+            {
+                "industry": "制造业",
+                "action_type": "减仓",
+                "weight_change_pct": -3.24,
+                "change_rank": 3
+            },
+            {
+                "industry": "水利、环境和公共设施管理业",
+                "action_type": "减仓",
+                "weight_change_pct": -2.9,
+                "change_rank": 4
+            },
+            {
+                "industry": "原材料",
+                "action_type": "减仓",
+                "weight_change_pct": -1.98,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-06-30 报告期，调仓最大的是 信息技术（变动 4.68%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "利好",
+        "industry_views": [
+            {
+                "industry": "AI国产算力",
+                "stance": "看好",
+                "reason": "继续看好国产算力的自主可控发展方向，维持重仓配置；国产算力芯片市占率稳步提升，算力芯片与服务器板块营收高增、中报业绩大超预期，验证了国产算力由主题走向业绩的核心逻辑"
+            },
+            {
+                "industry": "存储",
+                "stance": "看好",
+                "reason": "重视存储和 MLCC 等细分方向的景气度趋势变化，增加仓位"
+            },
+            {
+                "industry": "MLCC",
+                "stance": "看好",
+                "reason": "重视存储和 MLCC 等细分方向的景气度趋势变化，增加仓位"
+            },
+            {
+                "industry": "固态电池",
+                "stance": "看空",
+                "reason": "产业趋势明朗但节奏存在波折，适当减仓以应对风险"
+            }
+        ],
+        "key_factors": [
+            "宏观经济不确定性",
+            "地缘冲突",
+            "美元走强",
+            "美联储货币政策预期",
+            "市场结构分化",
+            "科技成长主线",
+            "产业趋势",
+            "流动性共振",
+            "国产化/自主可控",
+            "业绩兑现",
+            "景气度变化",
+            "风险管理"
+        ],
+        "confidence_score": 0.95
+    },
+    "comparison_result": {
+        "fund_code": "011340",
+        "end_date": "2026-06-30",
+        "consistency_score": 0.9,
+        "gap_type": "高度一致",
+        "industry_comparisons": [
+            {
+                "industry": "AI国产算力",
+                "say_stance": "看好",
+                "actual_action": "加仓",
+                "is_consistent": true,
+                "comment": "基金经理明确看好国产算力并表示维持重仓，实际操作中，与AI国产算力高度相关的“信息技术”和“信息传输、软件和信息技术服务业”板块均获得显著加仓，言行高度吻合。"
+            },
+            {
+                "industry": "存储",
+                "say_stance": "看好",
+                "actual_action": "加仓",
+                "is_consistent": true,
+                "comment": "基金经理在报告中强调重视存储景气度并增加仓位，与实际“信息技术”板块的大幅加仓行动相符。"
+            },
+            {
+                "industry": "MLCC",
+                "say_stance": "看好",
+                "actual_action": "加仓",
+                "is_consistent": true,
+                "comment": "基金经理明确表示看好MLCC并计划增加仓位，与“信息技术”板块的整体加仓动作一致。"
+            },
+            {
+                "industry": "固态电池",
+                "say_stance": "看空",
+                "actual_action": "减仓",
+                "is_consistent": true,
+                "comment": "基金经理因产业节奏波折而提出适当减仓固态电池以应对风险，实际“制造业”和“原材料”板块均出现显著减仓，行为与言论方向高度一致。"
+            }
+        ],
+        "diagnostic_summary": "本报告期内，基金经理在关键投资方向上的主观言论与实际调仓动作展现出高度一致性。特别是在其明确看好并计划增配的AI国产算力、存储、MLCC等科技成长细分领域，以及看空并计划减仓的固态电池（归属制造业/原材料范畴），组合均实现了精确的仓位调整。这表明基金经理的投资策略意图、市场判断与战术执行力在本期保持了良好的协同，未出现明显的风格漂移或言行不一现象。",
+        "challenge_question": "您在报告中高调宣称对“AI国产算力”、“存储”、“MLCC”等细分领域抱持坚定看好并增加仓位，实际操作中“信息技术”板块也确实大幅加仓。然而，“信息技术”涵盖甚广，能否详细阐明，这高达4.68%的增持中，究竟有多少比例精准匹配了您口中那些具备“国产化/自主可控”和“景气度变化”特质的核心细分方向？这究竟是精准的战术兑现，还是在宽泛的行业类别下，您的叙述只是事后对既有操作的一种“完美归因”，以掩盖更复杂的内部结构或非言论重点的配置决策？"
+    }
+}

@@ -1,0 +1,175 @@
+{
+    "composite_key": "006345_2026-06-30_R5",
+    "left_do_fact": {
+        "fund_code": "006345",
+        "end_date": "2026-06-30",
+        "report_type_id": 5,
+        "actual_actions": [
+            {
+                "industry": "科技",
+                "action_type": "加仓",
+                "weight_change_pct": 11.74,
+                "change_rank": 1
+            },
+            {
+                "industry": "租赁和商务服务业",
+                "action_type": "减仓",
+                "weight_change_pct": -4.46,
+                "change_rank": 2
+            },
+            {
+                "industry": "必需消费品",
+                "action_type": "减仓",
+                "weight_change_pct": -4.14,
+                "change_rank": 3
+            },
+            {
+                "industry": "通讯",
+                "action_type": "减仓",
+                "weight_change_pct": -3.82,
+                "change_rank": 4
+            },
+            {
+                "industry": "卫生和社会工作",
+                "action_type": "减仓",
+                "weight_change_pct": -3.28,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-06-30 报告期，调仓最大的是 科技（变动 11.74%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "利好",
+        "industry_views": [
+            {
+                "industry": "AI算力",
+                "stance": "看好",
+                "reason": "景气度持续加码，基金策略明确侧重，并进行海外算力配置"
+            },
+            {
+                "industry": "科技上游材料和设备",
+                "stance": "看好",
+                "reason": "AI算力投入带动紧缺加剧、涨价持续蔓延，基金将其作为弹性配置"
+            },
+            {
+                "industry": "科技领域",
+                "stance": "看好",
+                "reason": "基金调整组合结构，方向上更加侧重于科技领域，体现长期成长属性"
+            },
+            {
+                "industry": "科技绩优龙头",
+                "stance": "看好",
+                "reason": "基金将其作为稳健的底仓配置"
+            },
+            {
+                "industry": "国内存储半导体",
+                "stance": "看好",
+                "reason": "与海外算力互补，在核心科技成长领域里分布全面"
+            },
+            {
+                "industry": "传统制造",
+                "stance": "看空",
+                "reason": "仍未见系统性的景气拐点，需更多时间出清"
+            },
+            {
+                "industry": "消费",
+                "stance": "看空",
+                "reason": "仍未见系统性的景气拐点，需更多时间出清"
+            },
+            {
+                "industry": "价值蓝筹公司",
+                "stance": "中性",
+                "reason": "保留配置，主要为使得组合搭配更为稳健，控制短期波动率"
+            },
+            {
+                "industry": "具有全球性敞口的公司",
+                "stance": "中性",
+                "reason": "保留配置，主要为使得组合搭配更为稳健，控制短期波动率"
+            }
+        ],
+        "key_factors": [
+            "全球权益市场风险偏好提升",
+            "AI算力景气度提升",
+            "科技上游材料设备紧缺与涨价",
+            "产业结构性行情",
+            "长期成长属性",
+            "组合收益来源多样性",
+            "短期波动率控制"
+        ],
+        "confidence_score": 0.95
+    },
+    "comparison_result": {
+        "fund_code": "006345",
+        "end_date": "2026-06-30",
+        "consistency_score": 0.98,
+        "gap_type": "高度一致",
+        "industry_comparisons": [
+            {
+                "industry": "AI算力",
+                "say_stance": "看好",
+                "actual_action": "加仓",
+                "is_consistent": true,
+                "comment": "基金经理明确看好并声称侧重AI算力，实际在“科技”大类中大幅加仓11.74%，言行高度一致。"
+            },
+            {
+                "industry": "科技上游材料和设备",
+                "say_stance": "看好",
+                "actual_action": "加仓",
+                "is_consistent": true,
+                "comment": "强调科技上游材料设备作为弹性配置，与科技整体大幅加仓的动作相符，体现了积极的战术布局。"
+            },
+            {
+                "industry": "科技领域",
+                "say_stance": "看好",
+                "actual_action": "加仓",
+                "is_consistent": true,
+                "comment": "基金经理报告中明确表达要侧重科技领域并调整组合结构，实际操作中对科技板块进行了最大幅度的加仓，言行高度一致。"
+            },
+            {
+                "industry": "科技绩优龙头",
+                "say_stance": "看好",
+                "actual_action": "加仓",
+                "is_consistent": true,
+                "comment": "将科技绩优龙头作为底仓配置，与科技整体的加仓趋势吻合，显示了对该领域长期价值的认可与积极布局。"
+            },
+            {
+                "industry": "国内存储半导体",
+                "say_stance": "看好",
+                "actual_action": "加仓",
+                "is_consistent": true,
+                "comment": "强调国内存储半导体作为科技成长领域的补充，与科技板块整体加仓的策略相符。"
+            },
+            {
+                "industry": "传统制造",
+                "say_stance": "看空",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "基金经理明确看空传统制造，实际调仓中未见该板块有明显加仓，与规避策略一致。"
+            },
+            {
+                "industry": "消费",
+                "say_stance": "看空",
+                "actual_action": "减仓",
+                "is_consistent": true,
+                "comment": "明确看空消费，实际操作中对“必需消费品”进行了显著减仓4.14%，言行高度一致。"
+            },
+            {
+                "industry": "价值蓝筹公司",
+                "say_stance": "中性",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "采取中性立场并保留配置以控制波动率，调仓数据中未见价值蓝筹有显著变动，符合其稳健策略。"
+            },
+            {
+                "industry": "具有全球性敞口的公司",
+                "say_stance": "中性",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "保持中性并保留配置以稳健组合，调仓数据中未见全球性敞口公司有突出变动，符合其波动率控制目标。"
+            }
+        ],
+        "diagnostic_summary": "本报告期内，基金经理的投资言论与实际操作展现出极高的协同性与执行力。尤其是在对科技赛道的积极看好与果断加仓上，以及对消费板块的警惕与减持上，其言行均高度一致，精准地反映了报告中所述的策略调整与方向侧重。此种风格稳定、纪律性强的表现，体现了基金经理明确的战术意图与坚定的组合管理。",
+        "challenge_question": "本期报告中，贵基金在『科技』领域的言行表现出高度一致性，大幅加仓正与您的战略侧重完美契合。然而，这种近乎『完美』的契合，是源于您对宏观趋势的精准预判与果断执行，抑或是市场集体狂热下，被动追逐热点的幸存者偏差？您如何确保这种集中押注，在未来市场风格切换时，能真正体现『稳健底仓』的价值，而非短期波动的放大器？"
+    }
+}

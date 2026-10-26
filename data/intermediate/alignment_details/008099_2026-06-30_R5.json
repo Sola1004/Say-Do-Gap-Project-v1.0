@@ -1,0 +1,91 @@
+{
+    "composite_key": "008099_2026-06-30_R5",
+    "left_do_fact": {
+        "fund_code": "008099",
+        "end_date": "2026-06-30",
+        "report_type_id": 5,
+        "actual_actions": [
+            {
+                "industry": "交通运输、仓储和邮政业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 1
+            },
+            {
+                "industry": "住宿和餐饮业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 2
+            },
+            {
+                "industry": "信息传输、软件和信息技术服务业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 3
+            },
+            {
+                "industry": "信息技术",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 4
+            },
+            {
+                "industry": "公用事业",
+                "action_type": "持平",
+                "weight_change_pct": 0.0,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-06-30 报告期，调仓最大的是 交通运输、仓储和邮政业（变动 0.0%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "震荡",
+        "industry_views": [
+            {
+                "industry": "出行产业链",
+                "stance": "看好",
+                "reason": "报告期内基金组合结构未发生根本性变化，仍主要配置于该领域。"
+            },
+            {
+                "industry": "长期估值具有吸引力的行业",
+                "stance": "看好",
+                "reason": "报告期内基金组合结构未发生根本性变化，仍主要配置于该领域，相信其估值修复潜力。"
+            }
+        ],
+        "key_factors": [
+            "结构性分化",
+            "产业趋势",
+            "情绪/估值泡沫",
+            "动量效应",
+            "均值回归失效",
+            "价值风格",
+            "内需经济"
+        ],
+        "confidence_score": 0.9
+    },
+    "comparison_result": {
+        "fund_code": "008099",
+        "end_date": "2026-06-30",
+        "consistency_score": 0.95,
+        "gap_type": "高度一致",
+        "industry_comparisons": [
+            {
+                "industry": "出行产业链",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "基金经理明确指出组合结构未变且仍看好该领域，实际持仓中的交通运输、仓储和邮政业以及住宿和餐饮业均保持不变，与其声明完全吻合，体现言行一致。"
+            },
+            {
+                "industry": "长期估值具有吸引力的行业",
+                "say_stance": "看好",
+                "actual_action": "持平",
+                "is_consistent": true,
+                "comment": "基金经理强调现有组合结构未发生根本性变化，仍主要配置于估值有吸引力的行业，并相信其估值修复潜力。实际操作中全组合持仓保持不变，完全符合其对现有配置的持续认可和策略延续。"
+            }
+        ],
+        "diagnostic_summary": "该基金经理在本报告期的言论与其实际持仓动作展现出高度的内在一致性。报告中强调的“组合结构未发生根本性变化”与期末底层资产的绝对“持平”状态完全吻合。其对特定行业的“看好”更多是基于对既有配置的持续认可与对过去业绩的归因陈述，而非前瞻性的战术调整。在基金经理提及市场面临“结构性分化”、“情绪/估值泡沫”、“均值回归失效”等复杂因素的背景下，这种绝对的“言行一致”也同时揭示了本期策略的极致稳定，缺乏主动的进攻性或防御性调整。",
+        "challenge_question": "面对您报告中提及的“结构性分化”、“情绪/估值泡沫”乃至“均值回归失效”等诸多复杂市场因素，您的基金组合却呈现出“纹丝不动”的绝对持平状态，并反复强调“组合结构未发生根本性变化”。请问，这究竟是基于深刻洞察后的“以不变应万变”的战略定力，还是您的投研框架在复杂市场面前，未能有效转化为任何前瞻性的战术调整，从而导致了报告期内实质性的“不作为”？您所描述的“看好”出行产业链及“长期估值具有吸引力的行业”，究竟是基于积极的战术布局，还是仅仅是对当前静态配置的被动性“业绩归因”？"
+    }
+}

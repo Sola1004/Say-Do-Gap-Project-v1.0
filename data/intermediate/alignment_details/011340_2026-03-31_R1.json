@@ -1,0 +1,125 @@
+{
+    "composite_key": "011340_2026-03-31_R1",
+    "left_do_fact": {
+        "fund_code": "011340",
+        "end_date": "2026-03-31",
+        "report_type_id": 1,
+        "actual_actions": [
+            {
+                "industry": "制造业",
+                "action_type": "加仓",
+                "weight_change_pct": 12.64,
+                "change_rank": 1
+            },
+            {
+                "industry": "采矿业",
+                "action_type": "减仓",
+                "weight_change_pct": -5.41,
+                "change_rank": 2
+            },
+            {
+                "industry": "批发和零售业",
+                "action_type": "减仓",
+                "weight_change_pct": -4.81,
+                "change_rank": 3
+            },
+            {
+                "industry": "原材料",
+                "action_type": "减仓",
+                "weight_change_pct": -4.45,
+                "change_rank": 4
+            },
+            {
+                "industry": "信息技术",
+                "action_type": "减仓",
+                "weight_change_pct": -3.13,
+                "change_rank": 5
+            }
+        ],
+        "fact_summary": "在 2026-03-31 报告期，调仓最大的是 制造业（变动 12.64%）"
+    },
+    "right_say_json": {
+        "report_content_nature": "substantive",
+        "overall_sentiment": "震荡",
+        "industry_views": [
+            {
+                "industry": "国产算力",
+                "stance": "看好",
+                "reason": "自主可控的结构性机遇仍然存在，继续持有该成长方向"
+            },
+            {
+                "industry": "固态电池",
+                "stance": "看好",
+                "reason": "行业进入产业化加速期，设备、材料环节催化频现，继续持有该成长方向"
+            },
+            {
+                "industry": "造船",
+                "stance": "看空",
+                "reason": "适度兑现持仓"
+            },
+            {
+                "industry": "有色",
+                "stance": "看空",
+                "reason": "适度兑现持仓"
+            },
+            {
+                "industry": "能源化工",
+                "stance": "看好",
+                "reason": "增加配置以应对地缘冲突的影响"
+            }
+        ],
+        "key_factors": [
+            "科技成长",
+            "国产替代",
+            "产业化加速",
+            "地缘冲突",
+            "风险偏好"
+        ],
+        "confidence_score": 0.95
+    },
+    "comparison_result": {
+        "fund_code": "011340",
+        "end_date": "2026-03-31",
+        "consistency_score": 0.35,
+        "gap_type": "风格漂移/言行不一",
+        "industry_comparisons": [
+            {
+                "industry": "国产算力",
+                "say_stance": "看好",
+                "actual_action": "减仓",
+                "is_consistent": false,
+                "comment": "报告中明确看好“国产算力”并声称继续持有该成长方向，但实际在高度相关的“信息技术”板块进行了显著减仓，言行存在明显背离。"
+            },
+            {
+                "industry": "固态电池",
+                "say_stance": "看好",
+                "actual_action": "加仓",
+                "is_consistent": true,
+                "comment": "明确看好“固态电池”并表示继续持有，这与实际在“制造业”板块进行巨额加仓的动作高度吻合，显示出部分策略的一致性。"
+            },
+            {
+                "industry": "造船",
+                "say_stance": "看空",
+                "actual_action": "加仓",
+                "is_consistent": false,
+                "comment": "报告中对“造船”板块持看空态度并计划“适度兑现持仓”，然而实际操作却是在包含“造船”的“制造业”板块进行了高达12.64%的巨幅加仓，构成直接的言行冲突。"
+            },
+            {
+                "industry": "有色",
+                "say_stance": "看空",
+                "actual_action": "减仓",
+                "is_consistent": true,
+                "comment": "对“有色”板块的看空及计划“适度兑现”，与实际在“采矿业”和“原材料”板块的减仓操作完全一致，体现了较好的执行力。"
+            },
+            {
+                "industry": "能源化工",
+                "say_stance": "看好",
+                "actual_action": "减仓",
+                "is_consistent": false,
+                "comment": "报告中声称因地缘冲突看好“能源化工”并计划“增加配置”，但实际却在相关的“采矿业”和“原材料”板块进行了大幅减仓，言行严重不一。"
+            }
+        ],
+        "diagnostic_summary": "本报告期基金经理的言行表现出显著的偏离与矛盾。尽管对“固态电池”和“有色”板块的策略执行较为一致，但在“国产算力”和“能源化工”这两个明确看好的成长方向上，实际操作却是背道而驰的减仓。更为突出的是，嘴上喊着看空“造船”并要“兑现持仓”，但实际却对包含该行业的“制造业”进行了高达12.64%的最大幅度加仓，这不仅模糊了核心投资逻辑，更暴露出策略与行动之间存在严重的“Say-Do Gap”及潜在的风格漂移风险。",
+        "challenge_question": "基金经理，你在报告中明确看好“国产算力”和“能源化工”并承诺“继续持有”或“增加配置”，但实际却在“信息技术”、“采矿业”和“原材料”板块大举减仓；同时，你又声称看空“造船”并计划“兑现持仓”，但对包含“造船”的“制造业”却进行了巨幅加仓。这种言辞与实际投资行为之间近乎分裂的矛盾，究竟是你对市场判断失准、策略执行不力，还是你意图通过信息披露掩盖真实的投资风格漂移或操盘逻辑的不透明性？请直面这些核心质疑，解释你投资决策背后的真实考量与信披的完整性！"
+    }
+}
