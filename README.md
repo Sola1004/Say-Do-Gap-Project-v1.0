@@ -6,7 +6,9 @@
 
 本仓库是一个聚焦于公募基金经理“言行不一”（Say-Do Gap）的量化投研与大模型审计开源项目。项目通过自动化流水线，将基金定期报告中的定性文本（如宏观展望、策略阐述）与底层的量化持仓变动进行语义交叉对齐与动态打分，一键生成极具视觉冲击力的开源红黑榜与深度复盘长卷。
 
-👉 **[点击这里直接在本地预览带完整图表的看板](file:///Users/solaartemis/Say-Do-Gap-Project/Say_Do_Gap_Dashboard.html)**
+👉 **[📥 点击这里一键下载完整带图表的 Dashboard 看板网页 (HTML)](./Say_Do_Gap_Dashboard.html?download=1)**
+
+*(注：下载到本地电脑后，直接用您的任意浏览器双击打开此 `.html` 文件，即可 100% 完美查看所有彩色的 Plotly 交互式行业偏离度图表与深度文字审计结果。)*
 
 
 ## 📌 数据来源与合规声明 (Data Sources & Compliance)
